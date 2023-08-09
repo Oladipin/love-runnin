@@ -92,3 +92,27 @@ main {
 footer {
     background-color: blueviolet;
 }
+
+/* Media query: tablets and larger (768px and above) */
+@media screen and (min-width: 760px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 16px;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 16px;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
